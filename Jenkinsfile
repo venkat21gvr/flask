@@ -3,6 +3,7 @@ pipeline {
     stages {
         stage('cleanup') {
             steps { 
+                sh ' echo "Hi, How are you PA ?" '
                 deleteDir()
             }
         }
